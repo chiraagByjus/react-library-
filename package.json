@@ -5,7 +5,7 @@
   "main": "dist/index.cjs.js",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release --branches main"
   },
   "keywords": [
     "react",
@@ -45,6 +45,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.19.4"
-  },    
-  "publishConfig": {"access": "public"}
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
