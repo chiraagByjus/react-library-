@@ -5,7 +5,8 @@
   "main": "dist/index.cjs.js",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
-    "semantic-release": "semantic-release --branches main"
+    "semantic-release": "semantic-release --branches main",
+    "commit": "git-cz"
   },
   "keywords": [
     "react",
