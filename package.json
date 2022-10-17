@@ -1,6 +1,6 @@
 {
   "name": "@chiraagbyjus/react-library",
-  "version": "0.0.0-development",
+  "version": "1.0.1",
   "description": "This is a library of generic UI components",
   "main": "dist/index.cjs.js",
   "scripts": {
