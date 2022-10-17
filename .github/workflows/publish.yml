@@ -27,5 +27,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
           # cache-dependency-path: subdir/package.json
-      - run: npm ci
+      - run: npm ci --legacy-peer-deps
       - run: npm test
