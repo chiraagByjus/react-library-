@@ -2,7 +2,7 @@
   "name": "@chiraagbyjus/react-library",
   "version": "1.0.1",
   "description": "This is a library of generic UI components",
-  "main": "dist/index.cjs.js",
+  "main": "dist/index.umd.js",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "semantic-release": "semantic-release --branches main",
