@@ -25,7 +25,7 @@
   background-color: lightgray;;
 }
 .success{
-  background-color: lightgreen;
+  background-color: rgb(225, 144, 238);
 }
 .danger{
   background-color: lightcoral;
