@@ -43,8 +43,7 @@ jobs:
           cache: "npm"
           registry-url: "https://registry.npmjs.org"
       - run: npm ci --legacy-peer-deps
-      # - run: npm publish --access=public
+      - run: npx semantic-release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        run : npx semantic-release
