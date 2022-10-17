@@ -6,6 +6,7 @@ const Button = (props) => {
   return (
     <button className={`button ${variant} `} {...rest}>
       {children}
+      Button
     </button>
   );
 };
