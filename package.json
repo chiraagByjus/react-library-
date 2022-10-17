@@ -1,10 +1,11 @@
 {
   "name": "@chiraagbyjus/react-library",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "This is a library of generic UI components",
   "main": "dist/index.cjs.js",
   "scripts": {
-    "build": "rollup -c --bundleConfigAsCjs"
+    "build": "rollup -c --bundleConfigAsCjs",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "react",
@@ -29,6 +30,16 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-sourcemaps": "^0.6.3",
-    "rollup-plugin-styles": "^4.0.0"
+    "rollup-plugin-styles": "^4.0.0",
+    "semantic-release": "^19.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chiraagByjus/react-library-.git"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   }
 }
