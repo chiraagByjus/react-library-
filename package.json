@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "semantic-release": "semantic-release --branches main",
-    "commit": "git-cz"
+    "commit": "rollup -c --bundleConfigAsCjs && git add . && git-cz"
   },
   "keywords": [
     "react",
